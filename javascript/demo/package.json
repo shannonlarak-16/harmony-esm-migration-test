@@ -1,0 +1,13 @@
+{
+  "name": "harmony-esm-demo",
+  "version": "0.1.0",
+  "description": "Demo for ESM migration attempt",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "webpack --mode production --entry ./src/main.js"
+  },
+  "dependencies": {
+    "@openai/harmony": "^0.1.0",
+    "webpack": "^5.0.0"
+  }
+}
